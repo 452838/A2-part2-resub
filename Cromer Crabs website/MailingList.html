@@ -5,6 +5,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="MailingList.css">
         <title>Cromer Crabs/ Home page</title>
+        <script>
+            function SubmitForm()
+            {
+                alert("Form submitted, welcome to the Club!")
+            }
+        </script>
     </head>
     <body>
         <header>
@@ -22,6 +28,17 @@
         </header>
         <main>
             <h1>Our Mailing List</h1>
+            <div id="EntryArea">
+            <form>
+                <label for="FirstName">First Name:</label><br>
+                <input type="text" id="FirstName" name="Firstname"><br>
+                <label for="LastName">Last Name:</label><br>
+                <input type="text" id="LastName" name="LastName"><br>
+                <label for="Email">Email:</label><br>
+                <input type="text" id="Email" name="Email"><br>
+                <button onclick="SubmitForm()">Submit</button>
+            </form>   
+        </div>
             
         </main>
         <footer>

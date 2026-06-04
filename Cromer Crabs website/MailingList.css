@@ -69,24 +69,15 @@ main
     padding: 40px;
     margin-bottom: 20px;
 }
-.main-img-half-width
-{
-    width: 11%;
-    margin-left: 7%;
-    box-shadow: 5px 5px 5px black;
-}
-.Team-Member
-{
+#EntryArea{
+    border: 1px solid black;
+    justify-content: center;
     align-items: center;
-    width: 11%;
-    margin-right: 5px;
-    margin-left: 7%;
-
-}
-.Crabs-intro-img
-{
-    width: 50%;
-    margin-left: 20%;
+    width: 75%;
+    margin-left: 10%;
+    margin-right: 20%;
+    height: 50%;
+    text-align: center;
 }
 footer
 {

@@ -24,12 +24,12 @@
             <h1>Cromer Crabs</h1>
             <img class="Crabs-intro-img" src="assets/img/logo .png">
             <br>
-            <p class="into-text">Stuff Stuff Stuff Stuff Stuff Stuff Stuff Stuff Stuff Stuff Stuff Stuff Stuff Stuff Stuff </p>
+            <p class="into-text">Cromer Crabs is the hot new esports team, everybody is intrested in. If the name didnt give it away, We are based in your local town of Cromer</p>
             <h3>Our Games</h3>
-            <p>- Game 1</p>
-            <p>- Game 2</p>
-            <p>- Game 3</p>
-            <p>- Game 4</p>
+            <p>-- Overwatch</p>
+            <p>-- Apex</p>
+            <p>-- Fortnite</p>
+            <p>-- Rocket League</p>
 
             <h1>The Team</h1>
             <img class="main-img-half-width" src="assets/img/Team profile.jpg">
@@ -37,13 +37,28 @@
             <img class="main-img-half-width" src="assets/img/Team profile.jpg">
             <img class="main-img-half-width" src="assets/img/Team profile.jpg">
             <img class="main-img-half-width" src="assets/img/Team profile.jpg">
-            <p class="Team-Member">Person 1</p>
-            <p class="Team-Member">Person 2</p>
-            <p class="Team-Member">Person 3</p>
-            <p class="Team-Member">Person 4</p>
-            <p class="Team-Member">Person 5</p>
+            <p class="Team-Member">John</p>
+            <p class="Team-Member">Smith</p>
+            <p class="Team-Member">Josh</p>
+            <p class="Team-Member">Ryan</p>
+            <p class="Team-Member">Alex</p>
 
             <h1>Upcoming events</h1>
+            <div id="Events">
+            <button onclick="EventChangeLeft()">&larr;</button>
+            <p id="Event">Tornament<br>05/07/2026<br>Wisbeach, England<br>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+            <button onclick="EventChangeRight()">&#8594;</button>
+        </div>
+        <script>
+            function EventChangeLeft()
+            {
+                document.getElementById("Event").innerHTML = "Tornament<br>05/07/2026<br>Wisbeach, England<br>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum";
+            }
+            function EventChangeRight()
+            {
+                document.getElementById("Event").innerHTML = "Meet & Greet<br>26/11/2026<br>New York, USA<br>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum"
+            }
+        </script>
 
             <h1>Our Merch</h1>
             <img class="Merch-Preview" src="assets/img/Cromer Crabs Merch.png">
