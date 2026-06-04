@@ -76,6 +76,17 @@ main
     margin-left: 7%;
     box-shadow: 5px 5px 5px black;
 }
+.Team-Member
+{
+    width: 11%;
+    margin-left: 7%;
+
+}
+.Crabs-intro-img
+{
+    width: 50%;
+    margin-left: 20%;
+}
 footer
 {
     display: flex;
