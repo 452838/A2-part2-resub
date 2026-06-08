@@ -78,6 +78,19 @@ main
     display: flex;
     flex-direction: row;
 }
+#Person-1 h3
+{
+    width: auto;
+    height: 20px;
+    margin: 0%;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+#Person-2 p
+{
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
 #socials-1
 {
     width: 65px;
