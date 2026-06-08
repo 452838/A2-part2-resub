@@ -59,29 +59,37 @@ nav a:hover
 main
 {
     color: var(--main-text);
-    width: 55%;
+    width: 80%;
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
     background-color: var(--lighter-background);
-    padding: 40px;
+    padding: 30px;
     margin-bottom: 20px;
 }
-#Item
-{
-    Width: 225px;
-    Height: 150px;
-    margin-bottom: 50px;
+#TopRow{
+    width: 90%;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 12px;
 }
-#Item p 
-{
-    flex-direction: row;
-    width: 130px;
+#MiddleRow{
+    width: 90%;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 12px;
 }
-#Item h4
-{
-    flex-direction: row;
-    width: 130px;
+#BottomRow{
+    width: 90%;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 12px;
 }
 footer
 {
