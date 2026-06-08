@@ -69,35 +69,66 @@ main
     padding: 40px;
     margin-bottom: 20px;
 }
+
 #Person-1
 {
+    margin-right: 50%;
     width: 50%;
-    height: 150px;
+    height: 120px;
+    display: flex;
     flex-direction: row;
 }
-#Person-2
+#socials-1
 {
-    width: 50%;
-    height: 150px;
-    flex-direction: row-reverse;
+    width: 65px;
+    height: 16px;
+    display: flex;
+    flex: none;
+    justify-content: flex-start;
 }
 #socials-1 a
 {
+    width: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
     color: rgb(255, 255, 255);
 }
 #socials-1 a:hover
 {
     color: rgb(255, 143, 246);
 }
+
+#Person-2
+{
+    margin-left: 50%;
+    width: 50%;
+    height: 120px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+#socials-2
+{
+    width: 65px;
+    height: 16px;
+    display: flex;
+    flex: none;
+    justify-content: flex-end;
+    float: right;
+}
 #socials-2 a
 {
-
+    width: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
     color: rgb(255, 255, 255);
 }
 #socials-2 a:hover
 {
     color: rgb(255, 143, 246);
 }
+
 footer
 {
     display: flex;
