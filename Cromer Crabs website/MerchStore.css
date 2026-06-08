@@ -67,7 +67,26 @@ main
     padding: 30px;
     margin-bottom: 20px;
 }
+#Item
+{
+    width: 30%;
+    height: 150px;
+    display: flex;
+}
+#Item h4
+{
+    margin: 0%;
+    height: fit-content;
+    width: fit-content;
+}
+#Item p
+{
+    margin: 0%;
+    height: fit-content;
+    width: fit-content;
+}
 #TopRow{
+    display: flex;
     width: 90%;
     height: 150px;
     margin-left: auto;
@@ -75,7 +94,9 @@ main
     margin-top: 15px;
     margin-bottom: 12px;
 }
+/*
 #MiddleRow{
+    display: flex;
     width: 90%;
     height: 150px;
     margin-left: auto;
@@ -84,13 +105,14 @@ main
     margin-bottom: 12px;
 }
 #BottomRow{
+    display: flex;
     width: 90%;
     height: 150px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 15px;
     margin-bottom: 12px;
-}
+}*/
 footer
 {
     display: flex;

@@ -56,7 +56,7 @@ nav a
 nav a:hover
 {
     background-color: var(--emphasis);
-    color: white;
+    color: var(--main-text);
 }
 main
 {
@@ -108,11 +108,11 @@ main
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    color: rgb(255, 255, 255);
+    color: var(--main-text);
 }
 #socials-1 a:hover
 {
-    color: rgb(255, 143, 246);
+    color: var(--emphasis);
 }
 
 #Person-2
@@ -154,11 +154,11 @@ main
     display: flex;
     flex-direction: row-reverse;
     align-items: flex-start;
-    color: rgb(255, 255, 255);
+    color: var(--main-text);
 }
 #socials-2 a:hover
 {
-    color: rgb(255, 143, 246);
+    color: var(--emphasis);
 }
 
 footer
