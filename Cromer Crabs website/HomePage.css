@@ -1,4 +1,3 @@
-/* REMEMBER: # for id selectors, . for class selectors*/
 
 :root
 {
@@ -110,9 +109,9 @@ footer p
 }
 #socials a
 {
-    color: rgb(255, 255, 255);
+    color: var(--main-text);
 }
 #socials a:hover
 {
-    color: rgb(255, 143, 246);
+    color: var(--emphasis);
 }
