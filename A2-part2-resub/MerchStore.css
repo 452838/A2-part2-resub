@@ -76,7 +76,8 @@ main
 }
 #Item p 
 {
-    margin: 9px;
+    flex-direction: row;
+    width: 130px;
 }
 #Item h4
 {
